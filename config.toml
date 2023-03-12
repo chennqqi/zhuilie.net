@@ -1,0 +1,20 @@
+#baseURL = 'http://example.org/'
+languageCode = "zh-cn"
+title = "个人资源分享"
+lastmod = true
+theme = "github-style"
+
+[params]
+  author = "chennqqi"
+  description = "example"
+  github = "https://github.com/chennqqi"
+  twitter = "example"
+  email = "chennqqi@qq.com"
+  utterances = "example/example.github.io"
+  avatar = "https://example.com/images/avatar.png"
+  url = "https://www.shellpub.com"
+  icp = "京ICP备16011091号-7"
+  icpurl = "https://beian.miit.gov.cn/"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
